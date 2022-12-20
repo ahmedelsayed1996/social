@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2469016cb7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style2.css">
+
+    <title>Social Webside</title>
+</head>
+
+<body>
+
+    <main class="container-fluid ">
+
+        <!-- start nav bar -->
+        <nav class="nav bg-secondary text-bg-light ">
+
+            <a class="nav-link  d-sm-block" href="#">
+                <button type="button" class="btn btn-secondary position-relative mt-2"><i
+                        class="fa-solid fa-house-chimney-user fs-1 "></i></button>
+
+                </i>
+            </a>
+
+            <a class="nav-link d-none d-sm-block"><button type="button"
+                    class="btn btn-secondary position-relative mt-2"><i
+                        class="fa-solid fa-magnifying-glass  fs-1"></i></button>
+
+            </a>
+
+            <a class="nav-link d-none d-sm-block" href="#">
+                <button type="button" class="btn btn-secondary position-relative mt-2"><i
+                        class="fa-solid fa-comment-dots fs-1"></i></button>
+
+            </a>
+
+            <a class="nav-link d-none d-sm-block" href="#">
+                <button type="button" class="btn btn-secondary position-relative mt-2"><i
+                        class="fa-solid fa-earth-americas  fs-1"></i></button>
+
+            </a>
+
+            <a class="nav-link d-none d-sm-block" href="#">
+                <button type="button" class="btn btn-secondary position-relative mt-2"
+                    aria-controls="navbarNavDropdown">
+                    <i class="fa-sharp fa-solid fa-bell fs-1 "></i>
+                    <span class="position-absolute top-1 start-100 translate-middle badge rounded-pill bg-success">
+                        99+
+                        <span class="visually-hidden">unread messages</span>
+                    </span>
+                </button>
+            </a>
+
+        </nav>
+        <!-- end nav bar -->
+
+
+        <!-- left side  -->
+        <div class="row">
+            <aside class="col-sm-2 col-lg-3 p-2 text-center hover">
+
+                <!-- side card number 1 -->
+                <div class="shadow">
+                    <div class="fs-2 rounded-circle">My Profile</div>
+                    <div> <img src="./businessman.jpg" id="perimg"></div>
+                    <div>
+                        <ul class="text-center me-5 row " id="list-none">
+                            <li class="fs-5"><i class="fa-solid fa-pen mx-2  flex-fill"></i> Devolper, Front-End</li>
+                            <li class="fs-5"><i class="fa fa-home fa-fw w3-margin-right w3-text-theme m-2 "></i> Qena,
+                                Egypt</li>
+                            <li class="fs-5"><i
+                                    class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme m-2 "></i>15,06,1996
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- side card number 2 -->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                <div>
+                                    <i class="fa fa-users fa-fw w3-margin-right "></i> My Photo
+
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body ">
+                                <img class="mb-3" src="./nature1.jpg" style="width:100%">
+                                <img class="mb-3" src="./nature2.jpg" style="width:100%">
+                                <img class="mb-3" src="./nature3.jpg" style="width:100%">
+                                <img class="mb-3" src="./nature4.jpg" style="width:100%">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                <div>
+                                    <i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> My Events
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">The Winter Is Coming</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                <div>
+                                    <i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> My Groups
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">You don't have groups yet.....</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- side card number 3 -->
+                <div class="shadow m-3 ">
+                    <p class="fs-3 ">Interests</p>
+                    <div>
+                        <button type="submit" class="btn btn-secondary "></i> Design</button>
+                        <button type="submit" class="btn btn-secondary  "></i> Programing</button>
+                        <button type="submit" class="btn btn-secondary  "></i> Swimming</button>
+                        <button type="submit" class="btn btn-secondary  "></i> travel</button>
+                        <button type="submit" class="btn btn-secondary  "></i> Chees</button>
+                        <button type="submit" class="btn btn-secondary  "></i> Football</button>
+                        <button type="submit" class="btn btn-secondary  m-2"></i> Frinds</button>
+                        <button type="submit" class="btn btn-secondary  "></i> Drive</button>
+                        <button type="submit" class="btn btn-secondary  "></i> T-V</button>
+                        <button type="submit" class="btn btn-secondary  m-2"></i> playstation</button>
+                    </div>
+                </div>
+
+                <!-- side card number 4 -->
+                <div>
+                    <div class="alert alert-dark shadow alert-dismissible fade show" role="alert">
+                        <strong>Hey!</strong><br> Some People are looking at your profile. Find who !! <br>Maybe these
+                        are our friends ?
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+
+                </div>
+
+            </aside>
+            <!-- </div> -->
+
+            <!-- start center section  -->
+            <section class="col-sm-8 col-lg-7 p-2 ">
+
+                <!-- post section -->
+                <div class="p-2 mt-2 shadow">
+                    <div>
+                        <input type="text" class=" form-control-plaibtext mb-2" value="Social Media template by">
+                        <input class="form-control form-control-lg" type="text" name="post"
+                            placeholder="what are you thinking about" id="">
+                        <button class="btn btn-secondary mt-2"><i class="fa-solid fa-pen"></i> post</button>
+                    </div>
+                </div>
+                <!-- post number1 -->
+                <div class="shadow p-2 m-3">
+                    <div class="fs-3">
+                        <img class="rounded-circle" src="./bill Gates.jpg" id="i1"> bill Gates
+                    </div>
+                    <hr>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi totam nulla magnam
+                            consequuntur? Error autem, ipsum soluta nemo officiis tempora dolorem quam quod! Beatae
+                            dolor
+                            sed neque at ducimus temporibus.</p>
+                    </div>
+                    <div class="row">
+                        <img class="col align-items-center" src="./magic-city.jpg" id="i2">
+                        <img class="col align-items-center" src="./moon.pgp.jpg" id="i3">
+                    </div>
+                    <div class="mt-2">
+
+                        <button type="submit" class="btn btn-secondary "><i class="fa-solid fa-thumbs-up"></i>
+                            Like</button>
+                        <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-comment-dots"></i>
+                            Comment</button>
+                        <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-share"></i> Share</button>
+                    </div>
+
+                </div>
+                <!-- post number2 -->
+                <div class="shadow p-2 m-3">
+                    <div class="fs-3">
+                        <img class="rounded-circle" src="./Johnny-Depp.jpg" id="i4"> Johnny-Depp
+                    </div>
+                    <hr>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fugit delectus architecto
+                            aliquid, pariatur natus fugiat omnis harum obcaecati, animi vero tempora dolores odit
+                            expedita
+                            hic libero necessitatibus dolorem amet!</p>
+                    </div>
+                    <div class=" mt-2">
+
+                        <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-thumbs-up"></i>
+                            Like</button>
+                        <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-comment-dots"></i>
+                            Comment</button>
+                        <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-share"></i> Share</button>
+                    </div>
+                </div>
+
+                <!-- post number3 -->
+                <div class="shadow p-2 m-3">
+                    <div class="fs-3">
+                        <img class="rounded-circle" src="./Steve-Jobs.jpg" id="i5"> Steve-Jobs
+                    </div>
+                    <hr>
+                    <div>
+                        <p>The Knowlegde</p>
+                        <img src="./knowlegde.jpg" id="i6">
+                    </div>
+                    <div class="mt-2">
+
+                        <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-thumbs-up"></i>
+                            Like</button>
+                        <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-comment-dots"></i>
+                            Comment</button>
+                        <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-share"></i> Share</button>
+                    </div>
+                </div>
+            </section>
+            <!-- end center section  -->
+
+
+
+            <!-- start right side  -->
+            <aside class="col-sm-2  p-2">
+
+                <!-- card one  -->
+                <div>
+                    <div class="text-center shadow">
+                        <p>Events Comeing:</p>
+                        <img src="./holiday.jpg" id="i7">
+                        <p class="fs-3">Holiday</p>
+                        <p>Friday 13:00</p>
+                        <p class="btn btn-success">info</p>
+                    </div>
+                </div>
+
+                <!-- card two -->
+                <div class="py-2">
+                    <div class="text-center shadow ">
+                        <div>
+                            <p>Friend Request</p>
+                            <img src="./businesswoman.jpg" id="i8">
+                            <p class="fs-3">Jane Doe</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card three -->
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="p-3 text-center">ASD</h5>
+                    </div>
+                </div>
+
+                <!-- card four -->
+                <div class="card shadow m-2">
+                    <div class="card-body">
+                        <p class="card-text fs-3 p-3 text-center"><i class="fa-solid fa-bug"></i></p>
+                    </div>
+                </div>
+
+            </aside>
+            <!-- end right side  -->
+
+        </div>
+    </main>
+    <!-- footer  -->
+    <footer>
+        <footer class="container-fluid p-3 mb-2 bg-secondary fs-2  text-white shadow text-center">Footer</footer>
+        <footer class="container-fluid p-3 mb-2 bg-secondary fs-6  text-white shadow text-end"> ©
+            Design by Ahmed El-Sayed
+        </footer>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
